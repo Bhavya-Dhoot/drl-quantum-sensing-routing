@@ -2,6 +2,8 @@
 
 **Deep Reinforcement Learning-Driven Autonomous Entanglement Routing in Distributed Variational Quantum Sensing Networks**
 
+*Parthiban K and Bhavya Dhoot — School of Computer Science and Engineering, Vellore Institute of Technology*
+
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch 2.0+](https://img.shields.io/badge/pytorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -219,12 +221,13 @@ All hyperparameters are in `configs/default.yaml`:
 If you use this code, please cite:
 
 ```bibtex
-@article{our2025drl,
+@article{parthiban2025drl,
   title={Deep Reinforcement Learning-Driven Autonomous Entanglement Routing 
          in Distributed Variational Quantum Sensing Networks},
-  author={Author One and Author Two},
+  author={Parthiban, K. and Dhoot, Bhavya},
   journal={EPJ Quantum Technology},
-  year={2025}
+  year={2025},
+  url={https://github.com/Bhavya-Dhoot/drl-quantum-sensing-routing}
 }
 ```
 
