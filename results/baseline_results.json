@@ -1,0 +1,70 @@
+{
+  "SP": {
+    "mean_qfi": 0.0,
+    "std_qfi": 0.0,
+    "ci_95_qfi": 0.0,
+    "mean_latency": 14.0,
+    "per_seed_qfi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "FF": {
+    "mean_qfi": 0.0,
+    "std_qfi": 0.0,
+    "ci_95_qfi": 0.0,
+    "mean_latency": 14.0,
+    "per_seed_qfi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "GREEDY-QFI": {
+    "mean_qfi": 0.0,
+    "std_qfi": 0.0,
+    "ci_95_qfi": 0.0,
+    "mean_latency": 14.0,
+    "per_seed_qfi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "RANDOM": {
+    "mean_qfi": 0.0,
+    "std_qfi": 0.0,
+    "ci_95_qfi": 0.0,
+    "mean_latency": 42.011199999999995,
+    "per_seed_qfi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "ER": {
+    "mean_qfi": 0.0,
+    "std_qfi": 0.0,
+    "ci_95_qfi": 0.0,
+    "mean_latency": 14.0,
+    "per_seed_qfi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "topology": "nsfnet",
+  "n_seeds": 5,
+  "n_episodes": 500
+}

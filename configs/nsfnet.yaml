@@ -1,0 +1,10 @@
+# NSFNET Topology Configuration
+topology: nsfnet
+topology_config:
+  T2: 1.0
+  F0: 0.95
+  n_memories: 10
+  p_gen: 0.5
+
+total_episodes: 10000
+max_steps: 50

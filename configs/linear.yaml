@@ -1,0 +1,9 @@
+# Linear Chain Configuration
+topology: linear
+topology_config:
+  T2: 1.0
+  F0: 0.95
+  n_memories: 10
+
+total_episodes: 5000
+max_steps: 30

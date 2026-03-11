@@ -1,0 +1,52 @@
+# ── Default Hyperparameters ───────────────────────────────────────────────────
+# Quantum Sensing-Aware Entanglement Routing
+
+# Topology
+topology: nsfnet
+topology_config:
+  T2: 1.0           # coherence time (seconds)
+  F0: 0.95          # initial link fidelity
+  n_memories: 10    # quantum memories per node
+  p_gen: 0.5        # pair generation probability
+  gen_rate: 100     # pairs per second
+  L_att: 22.0       # attenuation length (km)
+
+# Environment
+max_steps: 50
+arrival_rate: 1.0
+min_sensors: 2
+network_steps_per_action: 5
+
+# GAT Encoder
+gat_layers: 3
+gat_heads: 4
+hidden_dim: 128
+node_feature_dim: 6
+edge_feature_dim: 4
+dropout: 0.0
+
+# PPO
+clip_epsilon: 0.2
+gae_lambda: 0.95
+gamma: 0.99
+entropy_coeff: 0.01
+value_loss_coeff: 0.5
+max_grad_norm: 0.5
+lr_routing: 3.0e-4    # slow timescale
+lr_vqs: 1.0e-3        # fast timescale
+batch_size: 512
+rollout_length: 256
+num_epochs_per_update: 4
+num_workers: 4
+
+# Training
+total_episodes: 10000
+num_seeds: 5
+curriculum_stages: 3
+
+# Reward weights
+alpha: 1.0
+beta: 0.3
+gamma_r: 0.1
+delta_w: 0.05
+epsilon_r: 0.2

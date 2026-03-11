@@ -1,0 +1,9 @@
+# SURFnet Configuration
+topology: surfnet
+topology_config:
+  T2: 1.0
+  F0: 0.92
+  n_memories: 15
+
+total_episodes: 10000
+max_steps: 80
